@@ -1,0 +1,1 @@
+{"version":3,"sources":["style.css"],"names":[],"mappings":"AAAA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA","file":"style.e308ff8e.css","sourceRoot":"..","sourcesContent":["body {\n    font-family: 'Nunito Sans', sans-serif;\n}\n\n.navbar-brand {\n    font-weight: 600;\n}\n\n.container-fluid p {\n    font-size: 14px;\n}\n\n"]}

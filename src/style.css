@@ -1,0 +1,19 @@
+body {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.navbar-brand {
+    font-weight: 600;
+}
+
+#border-country {
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #BBBBBB;
+    margin-right: 10px;
+}
+
+.container-fluid p {
+    font-size: 14px;
+}
+
