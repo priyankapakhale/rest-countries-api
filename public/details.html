@@ -8,7 +8,7 @@
     <script src="https://kit.fontawesome.com/d8f93a4f64.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;600;800&display=swap" rel="stylesheet">
     <link rel = "stylesheet" href="./src/style.css">
-
+      
 </head>
 <body>
     <!-- JS, Popper.js, and jQuery -->
@@ -29,38 +29,39 @@
         </div>
     </nav>
     
+    <button class="btn btn-light mt-5 ml-5">Back</button>
 
-    <!-- search and dropdown -->
-    <div class="container-fluid px-5" >
-        <div class="row justify-content-between">
-            <div class="col-lg-4 col-sm-12 mt-5">
-                <input id="search" class="form-control mr-sm-2" type="search" placeholder="search for a country..." aria-label="Search">
+    <!-- country details -->
+    <div class="container-fluid px-5">
+        <div class="row mt-5 justify-content-between">
+            <div class="col-lg-6">
+                <img class="img-fluid" src="" id="flag" alt="" />
             </div>
-            <div class="col-lg-2 col-sm-7 mt-5">
-                <div class="dropdown">
-                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      Filter by Region
-                    </button>
-                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                      <a class="dropdown-item" href="#" value="Africa">Africa</a>
-                      <a class="dropdown-item" href="#" value="America">America</a>
-                      <a class="dropdown-item" href="#" value="Asia">Asia</a>
-                      <a class="dropdown-item" href="#" value="Europe">Europe</a>
-                      <a class="dropdown-item" href="#" value="Oceania">Oceania</a>
+            <div class="col-lg-6 ">
+                <div class="row ml-lg-0 ml-1 mt-5">
+                    <h5 id="name"></h5>
+                </div>
+                <div class="row">
+                    <div class="col-lg-5 left mt-5">
+                        <p id="native-name"></p>
+                        <p id="population"></p>
+                        <p id="region"></p>
+                        <p id="sub-region"></p>
+                        <p id="capital"></p>
                     </div>
+                    <div class="col-lg-5 right mt-5">
+                        <p id="top-level-domain"></p>
+                        <p id="currencies"></p>
+                        <p id="languages"></p>
+                    </div>
+                </div>
+                <div class="row mt-5 justify-content-start" id="border-countries">
+                    <p class="col-auto">Border Countries: </p>
                 </div>
             </div>
         </div>
     </div>
 
-    <!-- all countries -->
-    <div class="container-fluid mt-5 p-0" >
-        <div class="row pl-5 no-gutters" id="countries">
-            
-          
-        </div>
-    </div>
-    <script src="./src/index.js"></script>
-
-</body>
+    <script src="./src/details.js"></script>
+<script src="details.js"></script></body>
 </html>

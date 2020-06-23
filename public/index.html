@@ -7,8 +7,9 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/d8f93a4f64.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;600;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/style.e308ff8e.css">
-<script src="/style.e308ff8e.js"></script></head>
+    <link rel = "stylesheet" href="./src/style.css">
+
+</head>
 <body>
     <!-- JS, Popper.js, and jQuery -->
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
@@ -30,22 +31,22 @@
     
 
     <!-- search and dropdown -->
-    <div class="container-fluid px-5 mt-5">
+    <div class="container-fluid px-5" >
         <div class="row justify-content-between">
-            <div class="col-lg-4 col-sm-12">
-                <input class="form-control mr-sm-2" type="search" placeholder="search for a country..." aria-label="Search">
+            <div class="col-lg-4 col-sm-12 mt-5">
+                <input id="search" class="form-control mr-sm-2" type="search" placeholder="search for a country..." aria-label="Search">
             </div>
-            <div class="col-lg-2 col-sm-7">
+            <div class="col-lg-2 col-sm-7 mt-5">
                 <div class="dropdown">
                     <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                       Filter by Region
                     </button>
                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                      <a class="dropdown-item" href="#">Africa</a>
-                      <a class="dropdown-item" href="#">America</a>
-                      <a class="dropdown-item" href="#">Asia</a>
-                      <a class="dropdown-item" href="#">Europe</a>
-                      <a class="dropdown-item" href="#">Oceania</a>
+                      <a class="dropdown-item" href="#" value="Africa">Africa</a>
+                      <a class="dropdown-item" href="#" value="America">America</a>
+                      <a class="dropdown-item" href="#" value="Asia">Asia</a>
+                      <a class="dropdown-item" href="#" value="Europe">Europe</a>
+                      <a class="dropdown-item" href="#" value="Oceania">Oceania</a>
                     </div>
                 </div>
             </div>
@@ -53,13 +54,13 @@
     </div>
 
     <!-- all countries -->
-    <div class="container-fluid mt-5 p-0">
+    <div class="container-fluid mt-5 p-0" >
         <div class="row pl-5 no-gutters" id="countries">
             
           
         </div>
     </div>
-    <script src="/script.75da7f30.js"></script>
+    <script src="./src/index.js"></script>
 
-</body>
+<script src="index.js"></script></body>
 </html>

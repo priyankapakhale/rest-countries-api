@@ -5,7 +5,7 @@ const dropdown = document.querySelectorAll('.dropdown-item')
 function showDetails(country) {
     const {name, alpha2Code} = country
     const query = {countryName: name, alpha2Code}
-    location.href = "./detailsPage.html?country="+JSON.stringify(query)
+    location.href = "./details.html?country="+JSON.stringify(query)
 }
 
 function formatted(a) {
