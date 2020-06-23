@@ -17,7 +17,7 @@ let details = new HtmlWebpackPlugin({
 
 
 module.exports = {
-    mode: "development",
+    mode: "production",
     entry: {
         index: "./src/index.js",
         details: "./src/details.js"
